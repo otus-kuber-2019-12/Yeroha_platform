@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: frontend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+      - name: server
+        image: yerlanagzhigitov/otus-homework1:0.0.1
