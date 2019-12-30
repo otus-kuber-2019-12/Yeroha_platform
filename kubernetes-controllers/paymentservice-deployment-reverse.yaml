@@ -11,11 +11,11 @@ spec:
        maxUnavailable: 25%
   selector:
     matchLabels:
-      app: payment
+      app: paymentservice
   template:
     metadata:
       labels:
-        app: payment
+        app: paymentservice
     spec:
       containers:
       - name: server
