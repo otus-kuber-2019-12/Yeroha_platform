@@ -1,6 +1,8 @@
 # Yeroha_platform
 Yeroha Platform repository
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 Выполнил домашнее задание №1
 Был собран docker image с простым приложением работающий по ссылке 
 http://localhost:8000/homework.html
@@ -11,3 +13,9 @@ http://localhost:8000/homework.html
 
 Для запуска пода необходимо выполнить команду 
 kubectl apply -f web-pod.yaml
+=======
+2 задание выполнено
+>>>>>>> 25fc4fe4b1aca1f9136e2e408477acfaafec1f88
+=======
+3 задание выполнено. Созданы пользователи и наделены правами описанными в домашнем задании
+>>>>>>> 79e87eb0081d5f8cd066b7ef7757e836e0da0ffd
