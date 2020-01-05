@@ -12,7 +12,7 @@ metadata:
   namespace: dev
 roleRef:
   apiGroup: rbac.authorization.k8s.io
-  kind: Role
+  kind: ClusterRole
   name: view
 subjects:
 - kind: ServiceAccount
