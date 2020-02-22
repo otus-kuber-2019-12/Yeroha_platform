@@ -1,0 +1,13 @@
+prometheus:
+  prometheusSpec:
+     retention: 2d
+     ### Check this labels: kubectl get prometheus -o yaml -n monitoring
+     serviceMonitorNamespaceSelector: {} ### Namespace for ServiceMonitors select
+     serviceMonitorSelectorNilUsesHelmValues: false
+     serviceMonitorSelector: {} ### matchLabels for ServiceMonitors select
+     # serviceMonitorSelector:
+     # matchLabels:
+     # prometheus: kube-prometheus
+     # release: prometheus-cluster-monitoring
+grafana:
+  adminPassword: admin
