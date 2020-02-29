@@ -1,0 +1,11 @@
+prometheus:
+  prometheusSpec:
+    serviceMonitorNamespaceSelector: {} 
+    serviceMonitorSelectorNilUsesHelmValues: false
+    serviceMonitorSelector: {}
+grafana:
+  adminPassword: Pass12345#123
+  additionalDataSources:
+    - name: loki
+      type: loki
+      url: http://loki:3100
