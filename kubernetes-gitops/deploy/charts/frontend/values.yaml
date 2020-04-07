@@ -1,0 +1,6 @@
+image:
+  repository: yerlanagzhigitov/frontend
+  tag: latest
+ingress:
+  host: 34.71.159.27
+environment: develop

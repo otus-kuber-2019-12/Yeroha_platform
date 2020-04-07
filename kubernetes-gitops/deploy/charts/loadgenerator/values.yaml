@@ -1,0 +1,5 @@
+image:
+  repository: yerlanagzhigitov/loadgenerator
+  tag: latest
+ingress:
+  host: 34.71.159.27
