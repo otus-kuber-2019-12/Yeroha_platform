@@ -1,0 +1,8 @@
+image:
+  repository: yerlanagzhigitov/cartservice
+  tag: latest
+
+redis:
+  cluster:
+    enabled: false
+  usePassword: false
